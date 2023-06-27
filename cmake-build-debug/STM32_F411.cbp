@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STM32_F411"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/clion_stm32/project_file/STM32_F411/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32_F411.elf">
+				<Option output="D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/STM32_F411.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion_stm32/project_file/STM32_F411/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add directory="D:/clion_stm32/project_file/STM32_F411/./STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="D:/clion_stm32/project_file/STM32_F411/dr"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32_F411.elf"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32_F411.elf/fast">
+				<Option output="D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/STM32_F411.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion_stm32/project_file/STM32_F411/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add directory="D:/clion_stm32/project_file/STM32_F411/./STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="D:/clion_stm32/project_file/STM32_F411/dr"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32_F411.elf/fast"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/clion_stm32/project_file/STM32_F411/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/clion_stm32/project_file/STM32_F411/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/STM32_F411/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F411CCUx_FLASH.ld">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/misc.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/Source/main.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/core_cm4.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/core_cmFunc.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/core_cmInstr.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/core_cmSimd.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/misc.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/stm32f4xx.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/stm32f4xx_can.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/stm32f4xx_conf.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/stm32f4xx_it.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/stm32f4xx_it.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/system_stm32f4xx.c">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/dr/system_stm32f4xx.h">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/startup/startup_stm32f411xe.s">
+			<Option target="STM32_F411.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/STM32_F411/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
